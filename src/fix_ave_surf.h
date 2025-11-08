@@ -11,7 +11,7 @@
 
    See the README file in the top-level SPARTA directory.
 ------------------------------------------------------------------------- */
-
+#include "tr1_compat.h"
 #ifdef FIX_CLASS
 
 FixStyle(ave/surf,FixAveSurf)

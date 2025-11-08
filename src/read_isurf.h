@@ -30,7 +30,7 @@ CommandStyle(read_isurf,ReadISurf)
 #elif defined SPARTA_UNORDERED_MAP
 #include <unordered_map>
 #else
-#include <tr1/unordered_map>
+#include <unordered_map>
 #endif
 
 namespace SPARTA_NS {

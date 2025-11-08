@@ -12,6 +12,7 @@
 
    See the README file in the top-level SPARTA directory.
 ------------------------------------------------------------------------- */
+#include "tr1_compat.h"
 
 #ifndef SPARTA_SURF_H
 #define SPARTA_SURF_H

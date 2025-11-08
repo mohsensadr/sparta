@@ -12,6 +12,8 @@
    See the README file in the top-level SPARTA directory.
 ------------------------------------------------------------------------- */
 
+#include "tr1_compat.h"
+
 #ifdef FIX_CLASS
 
 FixStyle(ave/grid,FixAveGrid)
@@ -92,7 +94,7 @@ class FixAveGrid : public Fix {
 #elif defined SPARTA_UNORDERED_MAP
   typedef std::unordered_map<surfint,int> MyHash;
 #else
-  typedef std::tr1::unordered_map<surfint,int> MyHash;
+  typedef std::unordered_map<surfint,int> MyHash;
 #endif
 
   MyHash *hash;

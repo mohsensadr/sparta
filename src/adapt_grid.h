@@ -11,6 +11,7 @@
 
    See the README file in the top-level SPARTA directory.
 ------------------------------------------------------------------------- */
+#include "tr1_compat.h"
 
 #ifdef COMMAND_CLASS
 
